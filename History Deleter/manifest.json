@@ -1,0 +1,21 @@
+{
+  "name": "History Auto Deleter",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "This is an extension that automatically deletes history on startup, that includes certain blacklisted words as a substring, which can be entered in the options section of the chrome extension. There are also a few other functionalities that have been added like the ability to clear history within last minute or last hour",
+  "background": {
+    "persistent": false,
+    "scripts": ["options.js"]
+  },
+  "permissions": ["activeTab", "declarativeContent", "storage", "history"],
+  "options_page": "options.html", 
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "64": "images/image64.png"
+    }
+  },
+  "icons": {
+    "64": "images/image64.png"
+  }
+}

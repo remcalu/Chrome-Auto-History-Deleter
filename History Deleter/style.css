@@ -1,0 +1,146 @@
+html {
+  background-color: #e0edff;
+}
+
+h1 {
+  font-size: 58px;
+  font-family: Impact, Charcoal, sans-serif;
+  margin-bottom: 0;
+}
+
+#searchBar {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  width: 680px;
+  top: 70px;
+  transform: translate(-50%, -50%);
+}
+
+#listDiv {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  max-width: 1240px;
+  min-width: 320px;
+  max-height: 98vh;
+  min-height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 170px;
+  transform: translate(-50%);
+}
+
+.listClass {
+  margin: 10px;
+  border-radius: 15px;
+  background-color: #bababa;
+  outline: 5px black;
+  border: 2px solid #303030;
+  text-align: center;
+}
+
+.itemName {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.removeDiv {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+#addSubmit {
+  font-weight: bold;
+  height: 30px;
+  width: 50px;
+  border-radius: 6px;
+  background-color: #8eff75;
+  border: 2px solid #303030;
+}
+
+#addSubmit:active {
+  background-color: #b9ffa9;
+}
+
+#clearSelected {
+  font-weight: bold;
+  height: 30px;
+  width: 185px;
+  border-radius: 6px;
+  background-color: #ffc375;
+  border: 2px solid #303030;
+}
+
+#clearSelected:active {
+  background-color: #ffdaaa;
+}
+
+#clearList {
+  font-weight: bold;
+  height: 30px;
+  width: 185px;
+  border-radius: 6px;
+  background-color: #ff6969;
+  border: 2px solid #303030;
+}
+
+#clearList:active {
+  background-color: #ff9f9f;
+}
+
+/* For popup */
+#clearNow {
+  margin: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 425px;
+  text-align: center;
+}
+
+#clearHistoryPopup {
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 30px;
+  width: 185px;
+  border-radius: 6px;
+  background-color: #ba69ff;
+  border: 2px solid #303030;
+}
+
+#clearHistoryPopup:active {
+  background-color: #d4a1ff;
+}
+
+#clearHistoryMin {
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 30px;
+  width: 185px;
+  border-radius: 6px;
+  background-color: #479aff;
+  border: 2px solid #303030;
+}
+
+#clearHistoryMin:active {
+  background-color: #94c4ff;
+}
+
+#clearHistoryHour {
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 30px;
+  width: 185px;
+  border-radius: 6px;
+  background-color: #18c7db;
+  border: 2px solid #303030;
+}
+
+#clearHistoryHour:active {
+  background-color: #8cf3ff;
+}
