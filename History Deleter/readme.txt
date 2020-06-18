@@ -36,4 +36,4 @@ Once you add a list, the next time chrome launches, it will erase all links that
 
 
 ---Last Modified---
-June 16, 2020
+June 18, 2020
