@@ -1,6 +1,6 @@
 # Chrome History Auto Deleter Extension
 
-# Author
+## Author
 Remus Calugarescu
 
 # Last Modified
