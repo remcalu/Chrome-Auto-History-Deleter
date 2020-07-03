@@ -10,7 +10,7 @@ June 18, 2020
 This is an extension that automatically deletes history on startup, that includes certain blacklisted words as a substring, which can be entered in the options 
 section of the chrome extension. There are also a few other functionalities that have been added like the ability to clear history within last minute or last hour.
 
-![Image of Options](https://imgur.com/dUei3nf)
+![Image of Options](https://i.ibb.co/8KpGWcc/Screenshot-1.png)
 ## Installation Instructions
 Go to chrome and click the 3 vertical dots near the top right of the window, then hover over 'More tools' and click 'Extensions'. First enable developer
 mode near the top right of the window, Then you need to click 'Load unpacked and select the 'History Deleter' folder.
