@@ -11,6 +11,8 @@ This is an extension that automatically deletes history on startup, that include
 section of the chrome extension. There are also a few other functionalities that have been added like the ability to clear history within last minute or last hour.
 
 ![Options](https://i.imgur.com/dUei3nf.png)
+Above is an image of the main options page
+
 ## Installation Instructions
 Go to chrome and click the 3 vertical dots near the top right of the window, then hover over 'More tools' and click 'Extensions'. First enable developer
 mode near the top right of the window, Then you need to click 'Load unpacked and select the 'History Deleter' folder.
