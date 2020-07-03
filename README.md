@@ -23,6 +23,6 @@ you can either select blacklisted words via the checkbox beneath them, and then 
 Once you add a list, the next time chrome launches, it will erase all links that contain the blacklisted words as substrings.
 
 ## Notes
--The search is not case sensitive
--Currently due to unknown issues with the chrome history API it only deletes history that is older than 2-3 days old
--History is deleted every time chrome is launched for the first time, as in when there are no more chrome tasks in task manager and then it is launched
+- The search is not case sensitive
+- Currently due to unknown issues with the chrome history API it only deletes history that is older than 2-3 days old
+- History is deleted every time chrome is launched for the first time, as in when there are no more chrome tasks in task manager and then it is launched
