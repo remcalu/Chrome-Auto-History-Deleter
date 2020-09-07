@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>Popup</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-
-<body>
-    <div id="clearNow">
-        <h1 style="font-size:40px">Chrome Search Blacklist</h1>
-        <input style="margin-top:15px" type="submit" id="clearHistoryPopup" value="Clear Now">
-        <input style="margin-top:15px" type="submit" id="clearHistoryMin" value="Clear last Minute">
-        <input style="margin-top:15px" type="submit" id="clearHistoryHour" value="Clear last Hour">
-    </div>
-    <script src="popup.js"></script>
-</body>
-
+   <head>
+      <title>Popup</title>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body>
+      <div id="clearNow">
+         <h1 style="font-size:28px">Chrome Search Blacklist</h1>
+         <input style="margin-top:15px" class="noOutline" type="submit" id="clearHistoryPopup" value="Clear Now">
+         <input style="margin-top:15px" class="noOutline" type="submit" id="clearHistoryMin" value="Clear last Minute">
+         <input style="margin-top:15px" class="noOutline" type="submit" id="clearHistory10Min" value="Clear last 10 Minutes">
+         <input style="margin-top:15px" class="noOutline" type="submit" id="clearHistory30Min" value="Clear last 30 Minutes">
+         <input style="margin-top:15px" class="noOutline" type="submit" id="clearHistoryHour" value="Clear last Hour">
+         <input style="margin-top:15px" class="noOutline" type="submit" id="clearHistoryDay" value="Clear last Day">
+      </div>
+      <script src="popup.js"></script>
+   </body>
 </html>

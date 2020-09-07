@@ -1,37 +1,25 @@
 <html>
-
-<head>
-    <title>History Auto Deleter</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-
-<body>
-    <div id="searchBar">
-        <h1>Chrome Search Blacklist</h1>
-        <input style="margin:2px" type="text" id="addElement" name="add" placeholder="Add To List">
-        <input style="margin:2px" type="submit" id="addSubmit" value="Add">
-        <input style="margin:2px" type="submit" id="clearSelected" value="Clear Selected Items">
-        <input style="margin:2px" type="submit" id="clearList" value="Clear List">
-    </div>
-
-    <div id="listDiv">
-    </div>
-
-    <template id="listTemplate">
-        <div class="listClass">
-
-            <div class="itemName">
-                <p class="itemNameText"></p>
-            </div>
-
+   <head>
+      <title>History Auto Deleter</title>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body>
+      <div id="searchBar">
+         <h1>Chrome Search Blacklist</h1>
+         <input style="margin:2px" class="noOutline" type="text" id="addElement" name="add" placeholder="Add To List">
+         <input style="margin:2px" class="noOutline" type="submit" id="addSubmit" value="Add">
+         <input style="margin:2px" class="noOutline" type="submit" id="clearSelected" value="Clear Selected Items">
+         <input style="margin:2px" class="noOutline" type="submit" id="clearList" value="Clear List">
+      </div>
+      <div id="listDiv">
+      </div>
+      <template id="listTemplate">
+         <div class="listClass">
             <div class="removeDiv">
-                <input type="radio" class="removeCheck" />
+               <input class="labelClass noOutline" type="submit"></input>
             </div>
-
-        </div>
-    </template>
-
-    <script src="options.js"></script>
-</body>
-
+         </div>
+      </template>
+      <script src="options.js"></script>
+   </body>
 </html>
