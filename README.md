@@ -3,8 +3,8 @@
 ## Author
 Remus Calugarescu
 
-## Last Modified
-June 18, 2020
+## Last Major Modification
+September 7, 2020
 
 ## Purpose
 This is an extension that automatically deletes history on startup, that includes certain blacklisted words as a substring, which can be entered in the options 
